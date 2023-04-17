@@ -1,0 +1,91 @@
+*{
+    font-family: 'League Gothic', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-section{
+    background-color: #fefdfb;
+}
+
+.contact-container{
+    margin: 0 25%;
+    text-align: center;
+}
+
+.contact-heading{
+    font-family: 'League Gothic', sans-serif;
+    /* color: #831a2e; */
+    color: #000000;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    margin-top: 100px;
+}
+
+.contact-p{
+    text-align: left;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.contact-label{
+    text-align: left;
+    color: #000000;
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+.contact-input{
+    width: 100%;
+    padding: 20px 30px;
+    font-size: 1.3rem;
+    border: #831a2e 1px solid;
+    border-radius: 3px;
+}
+
+.radio-div{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.input-label{
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.contact-input-form-div{
+    margin-bottom: 50px;
+}
+
+.comment-textarea{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: #831a2e 1px solid;
+}
+
+.contact-btn{
+    background-color: #831a2e;
+    color: #fefdfb;
+    font-size: 1.5rem;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.contact-btn:hover{
+    background-color: #dc2d4d;
+    transition: all 0.3s ease-in-out;
+}

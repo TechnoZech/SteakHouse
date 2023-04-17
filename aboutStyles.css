@@ -1,0 +1,232 @@
+*{
+    font-family: 'League Gothic', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.video-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+.about-heading{
+
+    position: absolute;
+    top: 200px;
+    font-family: 'League Gothic', sans-serif;
+    /* margin-top: 200px; */
+    color: #ebebeb;
+    font-size: 5rem;
+    letter-spacing: 3px;
+}
+
+.about-heading2{
+    font-family: 'Montserrat', sans-serif;
+    color: #ebebeb;
+    font-size: 6rem;
+    top: 300px;
+    position: absolute;
+    
+}
+
+/* <<<============ History ============>>> */
+
+.history-section{
+    background-color: #1a1a1a;
+}
+
+.history-div{
+    margin: 0 10%;
+    text-align: center;
+    
+}
+
+.history-h1, .history-h1-span{
+    color: #d4be97;
+    font-size: 4rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-family: 'League Gothic', sans-serif;
+    padding-top: 50px;
+}
+
+.history-h1-span{
+    color: #ffffff;
+}
+
+.history-p{
+    color: #ffffff;
+}
+
+.history-timeline{
+    display: flex;
+    gap: 50px;
+    margin: 0 10%;
+}
+
+.vertical {
+    
+    margin-top: 50px;
+    border-left: 2px solid #d4be97;
+    height: 500px;
+    /* position:absolute; */
+    left: 50%;
+}
+
+.history-year{
+    writing-mode: tb-rl;
+    transform: rotate(180deg);
+    color: #d4be97;
+    font-size: 2.5rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-family: 'League Gothic', sans-serif;
+}
+
+.img-timeline-div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    
+}
+
+.img-timeline{
+    width: 500px;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.timeline-h1{
+    font-size: 1.5rem;
+    color: #d4be97;
+    margin-top: 30px;
+    
+}
+
+.timeline-p{
+    font-size: 1rem;
+    color: #ffffff;
+    margin-top: 30px;
+    text-align: left;
+}
+
+  /* <<<============ Team ============>>>  */
+
+  .team-section{
+    background-color: #ffffff;
+  }
+
+  .team-div{
+    margin: 0 15%;
+  }
+
+  .join-team-div, .learnmore-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .join-team-div{
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  .learnmore-div{
+    margin-bottom: 100px;
+  }
+
+  .join-team-img{
+    width: 450px;
+    height: 350px;
+  }
+
+  .join-team-text-div{
+    background-color: #f0ede6;
+    padding: 80px 50px;
+    box-shadow: 15px 12px 34px 0 rgb(28 26 26 / 45%);
+    
+  }
+  .join-team-h1{
+    color: #000000;
+    font-size: 4rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-family: 'League Gothic', sans-serif;
+  }
+
+  .join-team-btn{
+    background-color: #831a2e;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 40px;
+    cursor: pointer;
+  }
+  .join-team-btn:hover{
+    background-color: #c72946;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .join-team-p{
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+  
+   /* <<<============ Banner ============>>>  */
+
+   .banner-section{
+    display: flex;
+    align-items: center;
+    background: url(//media.longhornsteakhouse.com/images/site/responsive/global/paper-background-pattern.jpg);
+    background-repeat: repeat-x;
+    margin-bottom: 100px;
+   }
+.banner-text{
+    margin-left: 150px;
+}
+.banner-h1{
+    color: #000000;
+    font-size: 5rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-family: 'League Gothic', sans-serif;
+}
+
+.banner-p{
+    font-size: 1.1rem;
+    color: #474032;
+    margin-bottom: 50px;
+}
+
+.banner-btn{
+    background-color: #831a2e;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 40px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.banner-btn:hover{
+    background-color: #c72946;
+    transition: all 0.2s ease-in-out;
+}
